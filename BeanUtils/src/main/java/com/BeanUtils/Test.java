@@ -11,8 +11,8 @@ public class Test {
 		
 		Student student = new Student() ; 
 		MutablePropertyValues value = new MutablePropertyValues() ; 
-		value.addPropertyValue("id" , "10") ; 
-		value.addPropertyValue("name" , "ahmed") ; 
+		value.addPropertyValue("id" , "20") ; 
+		value.addPropertyValue("name" , "Monis") ; 
 		
 		DataBinder databinder = new DataBinder(student) ; 
 		databinder.setAllowedFields(new String[] {"id" });
